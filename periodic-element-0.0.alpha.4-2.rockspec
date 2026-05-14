@@ -1,9 +1,9 @@
 rockspec_format = "3.1"
 package = "periodic-element"
-version = "0.0.alpha.4-1"
+version = "0.0.alpha.4-2"
 source = {
-    url = "git+https://github.com/SnapperGee/periodic-element",
-    tag = "0.0.alpha.4-1"
+    url = "git+https://gitlab.com/SnapperGee/periodic-element.git",
+    tag = "0.0.alpha.4-2"
 }
 description = {
     summary = "Elements of the periodic table of elements.",
@@ -24,8 +24,8 @@ description = {
         it exports and created from its classes are immutable (or intended to be
         as immutable as possible).
     ]],
-    homepage = "https://github.com/SnapperGee/periodic-element",
-    issues_url = "https://github.com/SnapperGee/periodic-element/issues",
+    homepage = "https://gitlab.com/SnapperGee/periodic-element.git",
+    issues_url = "https://gitlab.com/SnapperGee/periodic-element/-/issues",
     maintainer = "Snapper Gee <XxSnapperGeexX@gmail.com>",
     license = "MIT",
     labels = {"chemistry", "periodic", "element", "periodic-table", "periodic-table-of-elements", "periodic-element"},
