@@ -4,7 +4,8 @@ Elements of the periodic table of elements.
 
 [![lua][lua badge]][lua website]
 ![Git][git badge]
-![GitHub][github badge]
+[![GitLab][gitlab badge]][gitlab repo]
+[![GitHub][github badge]][github repo]
 
 ## Installation & Usage
 
@@ -195,4 +196,7 @@ This package uses the [MIT](./LICENSE.txt) license and is free to be used for wh
 [lua badge]: https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white "lua"
 [lua website]: https://www.lua.org/manual/5.1/ "lua"
 [git badge]: https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white "Git"
-[github badge]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white "GitHub"
+[gitlab badge]: https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white "GitLab repo"
+[gitlab repo]: https://gitlab.com/SnapperGee/periodic-element "GitLab repo"
+[github badge]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white "GitHub repo"
+[github repo]: https://github.com/SnapperGee/periodic-element "GitHub repo"
