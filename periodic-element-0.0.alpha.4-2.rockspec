@@ -31,8 +31,8 @@ description = {
     labels = {"chemistry", "periodic", "element", "periodic-table", "periodic-table-of-elements", "periodic-element"},
 }
 test_dependencies = {
-    "busted ~> 2.2",
-    "luacov ~> 0.16"
+    "busted ~> 2.3",
+    "luacov ~> 0.17"
 }
 dependencies = {
     "lua ~> 5.1",
