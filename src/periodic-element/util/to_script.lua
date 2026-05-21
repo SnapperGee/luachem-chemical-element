@@ -6,13 +6,15 @@ local SUBSCRIPT_CHARACTER = {
     [0] = "₀", "₁", "₂", "₃", "₄", "₅", "₆", "₇", "₈", "₉", ["-"] = "₋", ["+"] = "₊"
 }
 
----@param script_type "super"|"sub"
----@param arg integer
+--- Converts an integer to a superscript or subscript string. For instance, the integer
+--- ``5`` gets converted to ``"⁵"`` as a superscript or ``"₅"`` as a subscript.
+---@param script_type "super"|"sub" -- whether to convert the passed integer to a superscript or subscript string.
+---@param int integer -- the integer to convert to a superscript or subscript string.
 ---@return string
-local function to_script(script_type, arg)
+local function to_script(script_type, int)
     assert(
-        type(arg) == "number" and arg == math.floor(arg),
-        "integer expected but got: " .. tostring(arg)
+        type(int) == "number" and int == math.floor(int),
+        "integer expected but got: " .. tostring(int)
     )
 
     local SUPER
@@ -25,25 +27,25 @@ local function to_script(script_type, arg)
         error("script type of \"super\" or \"sub\" expected but got: " .. tostring(script_type), 2)
     end
 
-    if arg == 0 then
+    if int == 0 then
         return "⁰"
     end
 
     local out = {}
 
-    if arg < 0 then
+    if int < 0 then
         out[#out + 1] = SUPER["-"]
-        arg = -arg
+        int = -int
     end
 
     local pow = 1
-    while pow * 10 <= arg do
+    while pow * 10 <= int do
         pow = pow * 10
     end
 
     while pow > 0 do
-        local digit = math.floor(arg / pow) -- leading digit
-        arg = arg - digit * pow             -- remove that digit
+        local digit = math.floor(int / pow) -- leading digit
+        int = int - digit * pow             -- remove that digit
         pow = math.floor(pow / 10)          -- step down
         out[#out + 1] = SUPER[digit]
     end
@@ -51,12 +53,20 @@ local function to_script(script_type, arg)
     return table.concat(out)
 end
 
-local function to_superscript(arg)
-    return to_script("super", arg)
+--- Converts an integer to a superscript string. For instance, the integer
+--- ``5`` gets converted to ``"⁵"``.
+---@param int integer -- the integer to convert to a superscript string.
+---@return string
+local function to_superscript(int)
+    return to_script("super", int)
 end
 
-local function to_subscript(arg)
-    return to_script("sub", arg)
+--- Converts an integer to a subscript string. For instance, the integer
+--- ``5`` gets converted to ``"₅"``.
+---@param int integer -- the integer to convert to a subscript string.
+---@return string
+local function to_subscript(int)
+    return to_script("sub", int)
 end
 
 return {
