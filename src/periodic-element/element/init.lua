@@ -6,7 +6,7 @@ local OxidationStates = require("periodic-element.element.oxidation_states")
 
 local standard_states = { Solid = true, Liquid = true, Gas = true }
 
---- Class for creating an objects that can represent an element of the periodic
+--- Class for creating an object that can represent an element of the periodic
 --- table of elements.
 ---@class Element
 ---@field name   string      -- element name
