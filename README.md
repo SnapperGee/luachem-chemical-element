@@ -44,7 +44,7 @@ Element{
     melting_point=3823,
     boiling_point=4098,
     density=2.267,
-    standard_state="Solid"
+    standard_state="solid"
 }
 ]]
 ```

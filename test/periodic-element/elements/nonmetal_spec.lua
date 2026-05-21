@@ -19,7 +19,7 @@ local hydrogen_properties = {
     {"melting_point", 13.81},
     {"boiling_point", 20.28},
     {"density", 0.00008988},
-    {"standard_state", "Gas"},
+    {"standard_state", "gas"},
 }
 
 local carbon_properties = {
@@ -39,7 +39,7 @@ local carbon_properties = {
     {"melting_point", 3823},
     {"boiling_point", 4098},
     {"density", 2.267},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local nitrogen_properties = {
@@ -59,7 +59,7 @@ local nitrogen_properties = {
     {"melting_point", 63.15},
     {"boiling_point", 77.36},
     {"density", 0.0012506},
-    {"standard_state", "Gas"},
+    {"standard_state", "gas"},
 }
 
 local oxygen_properties = {
@@ -79,7 +79,7 @@ local oxygen_properties = {
     {"melting_point", 54.36},
     {"boiling_point", 90.2},
     {"density", 0.001429},
-    {"standard_state", "Gas"},
+    {"standard_state", "gas"},
 }
 
 local phosphorus_properties = {
@@ -99,7 +99,7 @@ local phosphorus_properties = {
     {"melting_point", 317.3},
     {"boiling_point", 553.65},
     {"density", 1.82},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local sulfur_properties = {
@@ -119,7 +119,7 @@ local sulfur_properties = {
     {"melting_point", 388.36},
     {"boiling_point", 717.75},
     {"density", 2.067},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local selenium_properties = {
@@ -139,7 +139,7 @@ local selenium_properties = {
     {"melting_point", 493.65},
     {"boiling_point", 958},
     {"density", 4.809},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 describe("Nonmetal", function ()

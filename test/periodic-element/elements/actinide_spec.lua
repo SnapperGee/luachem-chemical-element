@@ -19,7 +19,7 @@ local actinium_properties = {
     {"melting_point", 1324},
     {"boiling_point", 3471},
     {"density", 10.07},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local thorium_properties = {
@@ -39,7 +39,7 @@ local thorium_properties = {
     {"melting_point", 2023},
     {"boiling_point", 5061},
     {"density", 11.72},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local protactinium_properties = {
@@ -59,7 +59,7 @@ local protactinium_properties = {
     {"melting_point", 1845},
     {"boiling_point", nil},
     {"density", 15.37},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local uranium_properties = {
@@ -79,7 +79,7 @@ local uranium_properties = {
     {"melting_point", 1408},
     {"boiling_point", 4404},
     {"density", 18.95},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local neptunium_properties = {
@@ -99,7 +99,7 @@ local neptunium_properties = {
     {"melting_point", 917},
     {"boiling_point", 4175},
     {"density", 20.25},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local plutonium_properties = {
@@ -119,7 +119,7 @@ local plutonium_properties = {
     {"melting_point", 913},
     {"boiling_point", 3501},
     {"density", 19.84},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local americium_properties = {
@@ -139,7 +139,7 @@ local americium_properties = {
     {"melting_point", 1449},
     {"boiling_point", 2284},
     {"density", 13.69},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local curium_properties = {
@@ -159,7 +159,7 @@ local curium_properties = {
     {"melting_point", 1618},
     {"boiling_point", 3400},
     {"density", 13.51},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local berkelium_properties = {
@@ -179,7 +179,7 @@ local berkelium_properties = {
     {"melting_point", 1323},
     {"boiling_point", nil},
     {"density", 14},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local californium_properties = {
@@ -199,7 +199,7 @@ local californium_properties = {
     {"melting_point", 1173},
     {"boiling_point", nil},
     {"density", nil},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local einsteinium_properties = {
@@ -219,7 +219,7 @@ local einsteinium_properties = {
     {"melting_point", 1133},
     {"boiling_point", nil},
     {"density", nil},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local fermium_properties = {
@@ -239,7 +239,7 @@ local fermium_properties = {
     {"melting_point", 1800},
     {"boiling_point", nil},
     {"density", nil},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local mendelevium_properties = {
@@ -259,7 +259,7 @@ local mendelevium_properties = {
     {"melting_point", 1100},
     {"boiling_point", nil},
     {"density", nil},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local nobelium_properties = {
@@ -279,7 +279,7 @@ local nobelium_properties = {
     {"melting_point", 1100},
     {"boiling_point", nil},
     {"density", nil},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 describe("Actinide", function ()

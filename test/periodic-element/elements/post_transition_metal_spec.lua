@@ -19,7 +19,7 @@ local aluminum_properties = {
     {"melting_point", 933.437},
     {"boiling_point", 2792},
     {"density", 2.7},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local zinc_properties = {
@@ -39,7 +39,7 @@ local zinc_properties = {
     {"melting_point", 692.68},
     {"boiling_point", 1180},
     {"density", 7.134},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local gallium_properties = {
@@ -59,7 +59,7 @@ local gallium_properties = {
     {"melting_point", 302.91},
     {"boiling_point", 2477},
     {"density", 5.91},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local cadmium_properties = {
@@ -79,7 +79,7 @@ local cadmium_properties = {
     {"melting_point", 594.22},
     {"boiling_point", 1040},
     {"density", 8.69},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local indium_properties = {
@@ -99,7 +99,7 @@ local indium_properties = {
     {"melting_point", 429.75},
     {"boiling_point", 2345},
     {"density", 7.31},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local tin_properties = {
@@ -119,7 +119,7 @@ local tin_properties = {
     {"melting_point", 505.08},
     {"boiling_point", 2875},
     {"density", 7.287},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local mercury_properties = {
@@ -139,7 +139,7 @@ local mercury_properties = {
     {"melting_point", 234.32},
     {"boiling_point", 629.88},
     {"density", 13.5336},
-    {"standard_state", "Liquid"},
+    {"standard_state", "liquid"},
 }
 
 local thallium_properties = {
@@ -159,7 +159,7 @@ local thallium_properties = {
     {"melting_point", 577},
     {"boiling_point", 1746},
     {"density", 11.8},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local lead_properties = {
@@ -179,7 +179,7 @@ local lead_properties = {
     {"melting_point", 600.61},
     {"boiling_point", 2022},
     {"density", 11.342},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local bismuth_properties = {
@@ -199,7 +199,7 @@ local bismuth_properties = {
     {"melting_point", 544.55},
     {"boiling_point", 1837},
     {"density", 9.807},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local polonium_properties = {
@@ -219,7 +219,7 @@ local polonium_properties = {
     {"melting_point", 527},
     {"boiling_point", 1235},
     {"density", 9.32},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local copernicium_properties = {
@@ -239,7 +239,7 @@ local copernicium_properties = {
     {"melting_point", nil},
     {"boiling_point", nil},
     {"density", nil},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local nihonium_properties = {
@@ -259,7 +259,7 @@ local nihonium_properties = {
     {"melting_point", nil},
     {"boiling_point", nil},
     {"density", nil},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local flerovium_properties = {
@@ -279,7 +279,7 @@ local flerovium_properties = {
     {"melting_point", nil},
     {"boiling_point", nil},
     {"density", nil},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local moscovium_properties = {
@@ -299,7 +299,7 @@ local moscovium_properties = {
     {"melting_point", nil},
     {"boiling_point", nil},
     {"density", nil},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local livermorium_properties = {
@@ -319,7 +319,7 @@ local livermorium_properties = {
     {"melting_point", nil},
     {"boiling_point", nil},
     {"density", nil},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 describe("PostTransitionMetal", function ()

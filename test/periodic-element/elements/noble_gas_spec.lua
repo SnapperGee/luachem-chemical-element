@@ -19,7 +19,7 @@ local helium_properties = {
     {"melting_point", 0.95},
     {"boiling_point", 4.22},
     {"density", 0.0001785},
-    {"standard_state", "Gas"},
+    {"standard_state", "gas"},
 }
 
 local neon_properties = {
@@ -39,7 +39,7 @@ local neon_properties = {
     {"melting_point", 24.56},
     {"boiling_point", 27.07},
     {"density", 0.0008999},
-    {"standard_state", "Gas"},
+    {"standard_state", "gas"},
 }
 
 local argon_properties = {
@@ -59,7 +59,7 @@ local argon_properties = {
     {"melting_point", 83.8},
     {"boiling_point", 87.3},
     {"density", 0.0017837},
-    {"standard_state", "Gas"},
+    {"standard_state", "gas"},
 }
 
 local krypton_properties = {
@@ -79,7 +79,7 @@ local krypton_properties = {
     {"melting_point", 115.79},
     {"boiling_point", 119.93},
     {"density", 0.003733},
-    {"standard_state", "Gas"},
+    {"standard_state", "gas"},
 }
 
 local xenon_properties = {
@@ -99,7 +99,7 @@ local xenon_properties = {
     {"melting_point", 161.36},
     {"boiling_point", 165.03},
     {"density", 0.005887},
-    {"standard_state", "Gas"},
+    {"standard_state", "gas"},
 }
 
 local radon_properties = {
@@ -119,7 +119,7 @@ local radon_properties = {
     {"melting_point", 202},
     {"boiling_point", 211.45},
     {"density", 0.00973},
-    {"standard_state", "Gas"},
+    {"standard_state", "gas"},
 }
 
 local oganesson_properties = {
@@ -139,7 +139,7 @@ local oganesson_properties = {
     {"melting_point", nil},
     {"boiling_point", nil},
     {"density", nil},
-    {"standard_state", "Gas"},
+    {"standard_state", "gas"},
 }
 
 describe("NobleGas", function ()

@@ -19,7 +19,7 @@ local lanthanum_properties = {
     {"melting_point", 1191},
     {"boiling_point", 3737},
     {"density", 6.15},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local cerium_properties = {
@@ -39,7 +39,7 @@ local cerium_properties = {
     {"melting_point", 1071},
     {"boiling_point", 3697},
     {"density", 6.77},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local praseodymium_properties = {
@@ -59,7 +59,7 @@ local praseodymium_properties = {
     {"melting_point", 1204},
     {"boiling_point", 3793},
     {"density", 6.77},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local neodymium_properties = {
@@ -79,7 +79,7 @@ local neodymium_properties = {
     {"melting_point", 1294},
     {"boiling_point", 3347},
     {"density", 7.01},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local promethium_properties = {
@@ -99,7 +99,7 @@ local promethium_properties = {
     {"melting_point", 1315},
     {"boiling_point", 3273},
     {"density", 7.26},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local samarium_properties = {
@@ -119,7 +119,7 @@ local samarium_properties = {
     {"melting_point", 1347},
     {"boiling_point", 2067},
     {"density", 7.52},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local europium_properties = {
@@ -139,7 +139,7 @@ local europium_properties = {
     {"melting_point", 1095},
     {"boiling_point", 1802},
     {"density", 5.24},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local gadolinium_properties = {
@@ -159,7 +159,7 @@ local gadolinium_properties = {
     {"melting_point", 1586},
     {"boiling_point", 3546},
     {"density", 7.9},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local terbium_properties = {
@@ -179,7 +179,7 @@ local terbium_properties = {
     {"melting_point", 1629},
     {"boiling_point", 3503},
     {"density", 8.23},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local dysprosium_properties = {
@@ -199,7 +199,7 @@ local dysprosium_properties = {
     {"melting_point", 1685},
     {"boiling_point", 2840},
     {"density", 8.55},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local holmium_properties = {
@@ -219,7 +219,7 @@ local holmium_properties = {
     {"melting_point", 1747},
     {"boiling_point", 2973},
     {"density", 8.8},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local erbium_properties = {
@@ -239,7 +239,7 @@ local erbium_properties = {
     {"melting_point", 1802},
     {"boiling_point", 3141},
     {"density", 9.07},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local thulium_properties = {
@@ -259,7 +259,7 @@ local thulium_properties = {
     {"melting_point", 1818},
     {"boiling_point", 2223},
     {"density", 9.32},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local ytterbium_properties = {
@@ -279,7 +279,7 @@ local ytterbium_properties = {
     {"melting_point", 1092},
     {"boiling_point", 1469},
     {"density", 6.9},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 describe("Lanthanide", function ()

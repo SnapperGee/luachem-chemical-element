@@ -19,7 +19,7 @@ local boron_properties = {
     {"melting_point", 2348},
     {"boiling_point", 4273},
     {"density", 2.37},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local silicon_properties = {
@@ -39,7 +39,7 @@ local silicon_properties = {
     {"melting_point", 1687},
     {"boiling_point", 3538},
     {"density", 2.3296},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local germanium_properties = {
@@ -59,7 +59,7 @@ local germanium_properties = {
     {"melting_point", 1211.4},
     {"boiling_point", 3106},
     {"density", 5.323},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local arsenic_properties = {
@@ -79,7 +79,7 @@ local arsenic_properties = {
     {"melting_point", 1090},
     {"boiling_point", 887},
     {"density", 5.776},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local antimony_properties = {
@@ -99,7 +99,7 @@ local antimony_properties = {
     {"melting_point", 903.78},
     {"boiling_point", 1860},
     {"density", 6.685},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local tellurium_properties = {
@@ -119,7 +119,7 @@ local tellurium_properties = {
     {"melting_point", 722.66},
     {"boiling_point", 1261},
     {"density", 6.232},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 describe("Metalloid", function ()

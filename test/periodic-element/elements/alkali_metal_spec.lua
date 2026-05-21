@@ -19,7 +19,7 @@ local lithium_properties = {
     {"melting_point", 453.65},
     {"boiling_point", 1615},
     {"density", 0.534},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local sodium_properties = {
@@ -39,7 +39,7 @@ local sodium_properties = {
     {"melting_point", 370.95},
     {"boiling_point", 1156},
     {"density", 0.97},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local potassium_properties = {
@@ -59,7 +59,7 @@ local potassium_properties = {
     {"melting_point", 336.53},
     {"boiling_point", 1032},
     {"density", 0.89},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local rubidium_properties = {
@@ -79,7 +79,7 @@ local rubidium_properties = {
     {"melting_point", 312.46},
     {"boiling_point", 961},
     {"density", 1.53},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local cesium_properties = {
@@ -99,7 +99,7 @@ local cesium_properties = {
     {"melting_point", 301.59},
     {"boiling_point", 944},
     {"density", 1.93},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local francium_properties = {
@@ -119,7 +119,7 @@ local francium_properties = {
     {"melting_point", 300},
     {"boiling_point", nil},
     {"density", nil},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 describe("AlkaliMetal", function ()

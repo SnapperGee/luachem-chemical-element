@@ -19,7 +19,7 @@ local beryllium_properties = {
     {"melting_point", 1560},
     {"boiling_point", 2744},
     {"density", 1.85},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local magnesium_properties = {
@@ -39,7 +39,7 @@ local magnesium_properties = {
     {"melting_point", 923},
     {"boiling_point", 1363},
     {"density", 1.74},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local calcium_properties = {
@@ -59,7 +59,7 @@ local calcium_properties = {
     {"melting_point", 1115},
     {"boiling_point", 1757},
     {"density", 1.54},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local strontium_properties = {
@@ -79,7 +79,7 @@ local strontium_properties = {
     {"melting_point", 1050},
     {"boiling_point", 1655},
     {"density", 2.64},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local barium_properties = {
@@ -99,7 +99,7 @@ local barium_properties = {
     {"melting_point", 1000},
     {"boiling_point", 2170},
     {"density", 3.62},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local radium_properties = {
@@ -119,7 +119,7 @@ local radium_properties = {
     {"melting_point", 973},
     {"boiling_point", 1413},
     {"density", 5},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 describe("AlkalineEarthMetal", function ()

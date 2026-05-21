@@ -19,7 +19,7 @@ local fluorine_properties = {
     {"melting_point", 53.53},
     {"boiling_point", 85.03},
     {"density", 0.001696},
-    {"standard_state", "Gas"},
+    {"standard_state", "gas"},
 }
 
 local chlorine_properties = {
@@ -39,7 +39,7 @@ local chlorine_properties = {
     {"melting_point", 171.65},
     {"boiling_point", 239.11},
     {"density", 0.003214},
-    {"standard_state", "Gas"},
+    {"standard_state", "gas"},
 }
 
 local bromine_properties = {
@@ -59,7 +59,7 @@ local bromine_properties = {
     {"melting_point", 265.95},
     {"boiling_point", 331.95},
     {"density", 3.11},
-    {"standard_state", "Liquid"},
+    {"standard_state", "liquid"},
 }
 
 local iodine_properties = {
@@ -79,7 +79,7 @@ local iodine_properties = {
     {"melting_point", 386.85},
     {"boiling_point", 457.55},
     {"density", 4.93},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local astatine_properties = {
@@ -99,7 +99,7 @@ local astatine_properties = {
     {"melting_point", 575},
     {"boiling_point", nil},
     {"density", 7},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 local tennessine_properties = {
@@ -119,7 +119,7 @@ local tennessine_properties = {
     {"melting_point", nil},
     {"boiling_point", nil},
     {"density", nil},
-    {"standard_state", "Solid"},
+    {"standard_state", "solid"},
 }
 
 describe("Halogen", function ()
