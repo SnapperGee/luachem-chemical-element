@@ -77,7 +77,7 @@ function Molecule.new(element_counts)
 
         length = length + 1
         mass = mass + (element.mass * count)
-        elements[element] = (elements[element] or 0) + count
+        elements[element] = count
     end
 
     assert(length ~= 0, "non empty 'element_counts' table expected")
