@@ -64,28 +64,28 @@ local METATABLE = {
 function Molecule.new(element_counts)
     assert(type(element_counts) == "table", "'element_counts' table expected")
 
-    local _length = 0
+    local _count = 0
     local _mass = 0
     local _elements = {}
 
-    for element, count in pairs(element_counts) do
+    for element, element_count in pairs(element_counts) do
         assert(getmetatable(element) == Element, "non Element key in 'element_counts'")
         assert(
-            type(count) == "number" and count > 0 and count == math.floor(count),
-            "non-positive integer count: " .. tostring(count)
+            type(element_count) == "number" and element_count > 0 and element_count == math.floor(element_count),
+            "non-positive integer element count: " .. tostring(element_count)
         )
 
-        _length = _length + 1
-        _mass = _mass + (element.mass * count)
-        _elements[element] = count
+        _count = _count + 1
+        _mass = _mass + (element.mass * element_count)
+        _elements[element] = element_count
     end
 
-    assert(length ~= 0, "non empty 'element_counts' table expected")
+    assert(_count ~= 0, "non empty 'element_counts' table expected")
 
     local obj = setmetatable({}, METATABLE)
 
     DATA[obj] = {
-        length = _length,
+        count = _count,
         mass = _mass,
         elements = _elements
     }
@@ -112,8 +112,8 @@ function Molecule:mass()
 end
 
 ---@return integer -- total number of elements this molecule contains
-function Molecule:length()
-    return DATA[self].length
+function Molecule:count()
+    return DATA[self].count
 end
 
 return Molecule
