@@ -1,9 +1,9 @@
 rockspec_format = "3.1"
 package = "periodic-element"
-version = "0.0.alpha.5-1"
+version = "0.0.alpha.5-2"
 source = {
-    url = "git+https://gitlab.com/SnapperGee/periodic-element.git",
-    tag = "0.0.alpha.5-1"
+    url = "git+https://gitlab.com/SnapperGee/periodic-element",
+    tag = "0.0.alpha.5-2"
 }
 description = {
     summary = "Elements of the periodic table of elements.",
