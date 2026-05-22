@@ -1,5 +1,6 @@
 local Element = require("periodic-element.element")
 local elements = require("periodic-element.elements")
+local is_array = require("periodic-element.util.is_array")
 
 ---@class Molecule
 local Molecule = {}
