@@ -1,5 +1,5 @@
 local Element = require("periodic-element.element")
-local to_script = require("periodic-element.util.to_script")
+local elements = require("periodic-element.elements")
 
 ---@class Molecule
 local Molecule = {}
@@ -9,8 +9,12 @@ local DATA = setmetatable({}, { __mode = "k" })
 local METATABLE = {
     __index = function(self, k)
         local self_data = DATA[self]
-        if self_data ~= nil and getmetatable(k) == Element then
-            return self_data.elements[k]
+        if self_data ~= nil then
+            if getmetatable(k) == Element then
+                return self_data.elements[k] or 0
+            elseif type(k) == "string" or type(k) == "number" then
+                return self_data.elements[elements[k]] or 0
+            end
         end
         return Molecule[k]
     end,
@@ -100,14 +104,6 @@ function Molecule:elements()
         end
         return nil, nil
     end
-end
-
----@param element Element
----@return integer -- returns 0 if element not present
-function Molecule:count(element)
-    assert(getmetatable(element) == Element, "Element expected")
-    local self_data = DATA[self]
-    return self_data.elements[element] or 0
 end
 
 ---@return number -- molar mass of this molecule
