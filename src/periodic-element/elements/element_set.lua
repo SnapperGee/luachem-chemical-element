@@ -4,7 +4,6 @@ local is_array = require("periodic-element.util.is_array")
 --- Contains a set of distinct ``Element`` objects that can be queried for
 --- by their atomic number, name, or symbol.
 ---@class ElementSet
----@field _name string|nil
 local ElementSet = {}
 
 local DATA = setmetatable({}, { __mode = "k" })
