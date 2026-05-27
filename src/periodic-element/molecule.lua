@@ -1,6 +1,5 @@
 local Element = require("periodic-element.element")
 local elements = require("periodic-element.elements")
-local is_array = require("periodic-element.util.is_array")
 
 ---@class Molecule
 local Molecule = {}
@@ -65,6 +64,7 @@ local METATABLE = {
 function Molecule.new(element_counts)
     assert(type(element_counts) == "table", "'element_counts' table expected")
 
+    local _length = 0
     local _count = 0
     local _mass = 0
     local _elements = {}
@@ -76,22 +76,50 @@ function Molecule.new(element_counts)
             "non-positive integer element count: " .. tostring(element_count)
         )
 
-        _count = _count + 1
+        _length = _length + 1
+        _count = _count + element_count
         _mass = _mass + (element.mass * element_count)
         _elements[element] = element_count
     end
 
-    assert(_count ~= 0, "non empty 'element_counts' table expected")
+    assert(_length ~= 0, "non empty 'element_counts' table expected")
 
     local obj = setmetatable({}, METATABLE)
 
     DATA[obj] = {
+        length = _length,
         count = _count,
         mass = _mass,
         elements = _elements
     }
 
     return obj
+end
+
+---@param an_element Element|string|integer
+---@param ... Element|string|integer
+---@return Molecule
+function Molecule.from(an_element, ...)
+    local element = getmetatable(an_element) == Element and an_element or elements[an_element]
+    assert(element ~= nil, "unable to interpret element: " .. tostring(an_element))
+
+    local element_counts = {};
+    element_counts[element] = 1
+
+    local count = select("#", ...)
+
+    for i = 1, count do
+        local value = select(i, ...)
+        element = getmetatable(value) == Element and value or elements[value];
+
+        if element == nil then
+            error(("unable to interpret value at index %d to an element: \"%s\""):format(i, tostring(value)))
+        end
+
+        element_counts[element] = (element_counts[element] or 0) + 1
+    end
+
+    return Molecule.new(element_counts)
 end
 
 ---@return fun(): Element?, integer?
@@ -112,9 +140,14 @@ function Molecule:mass()
     return DATA[self].mass
 end
 
----@return integer -- total number of elements this molecule contains
+---@return integer -- number of atoms this molecule contains
 function Molecule:count()
     return DATA[self].count
+end
+
+---@return integer -- number of distinct elements this molecule contains
+function Molecule:length()
+    return DATA[self].length
 end
 
 return Molecule
