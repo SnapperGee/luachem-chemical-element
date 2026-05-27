@@ -34,7 +34,7 @@ Element{
     group=14,
     period=2,
     block='p',
-    family="Nonmetal",
+    family="nonmetal",
     oxidation_states={-4, +2, +4},
     electron_configuration="[He]2s²2p²",
     electronegativity=2.55,

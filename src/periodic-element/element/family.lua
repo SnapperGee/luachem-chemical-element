@@ -1,64 +1,64 @@
 local family = {
-    [3]="Alkali Metal",
-    [11]="Alkali Metal",
-    [19]="Alkali Metal",
-    [37]="Alkali Metal",
-    [55]="Alkali Metal",
-    [87]="Alkali Metal",
+    [3]="alkali metal",
+    [11]="alkali metal",
+    [19]="alkali metal",
+    [37]="alkali metal",
+    [55]="alkali metal",
+    [87]="alkali metal",
 
-    [4]="Alkaline Earth Metal",
-    [12]="Alkaline Earth Metal",
-    [20]="Alkaline Earth Metal",
-    [38]="Alkaline Earth Metal",
-    [56]="Alkaline Earth Metal",
-    [88]="Alkaline Earth Metal",
+    [4]="alkaline earth metal",
+    [12]="alkaline earth metal",
+    [20]="alkaline earth metal",
+    [38]="alkaline earth metal",
+    [56]="alkaline earth metal",
+    [88]="alkaline earth metal",
 
-    [13]="Post-transition Metal",
-    [30]="Post-transition Metal",
-    [31]="Post-transition Metal",
-    [48]="Post-transition Metal",
-    [49]="Post-transition Metal",
-    [50]="Post-transition Metal",
-    [80]="Post-transition Metal",
-    [81]="Post-transition Metal",
-    [82]="Post-transition Metal",
-    [83]="Post-transition Metal",
-    [84]="Post-transition Metal",
-    [112]="Post-transition Metal",
-    [113]="Post-transition Metal",
-    [114]="Post-transition Metal",
-    [115]="Post-transition Metal",
-    [116]="Post-transition Metal",
+    [13]="post-transition metal",
+    [30]="post-transition metal",
+    [31]="post-transition metal",
+    [48]="post-transition metal",
+    [49]="post-transition metal",
+    [50]="post-transition metal",
+    [80]="post-transition metal",
+    [81]="post-transition metal",
+    [82]="post-transition metal",
+    [83]="post-transition metal",
+    [84]="post-transition metal",
+    [112]="post-transition metal",
+    [113]="post-transition metal",
+    [114]="post-transition metal",
+    [115]="post-transition metal",
+    [116]="post-transition metal",
 
-    [5]="Metalloid",
-    [14]="Metalloid",
-    [32]="Metalloid",
-    [33]="Metalloid",
-    [51]="Metalloid",
-    [52]="Metalloid",
+    [5]="metalloid",
+    [14]="metalloid",
+    [32]="metalloid",
+    [33]="metalloid",
+    [51]="metalloid",
+    [52]="metalloid",
 
-    [9]="Halogen",
-    [17]="Halogen",
-    [35]="Halogen",
-    [53]="Halogen",
-    [85]="Halogen",
-    [117]="Halogen",
+    [9]="halogen",
+    [17]="halogen",
+    [35]="halogen",
+    [53]="halogen",
+    [85]="halogen",
+    [117]="halogen",
 
-    [2]="Noble Gas",
-    [10]="Noble Gas",
-    [18]="Noble Gas",
-    [36]="Noble Gas",
-    [54]="Noble Gas",
-    [86]="Noble Gas",
-    [118]="Noble Gas",
+    [2]="noble gas",
+    [10]="noble gas",
+    [18]="noble gas",
+    [36]="noble gas",
+    [54]="noble gas",
+    [86]="noble gas",
+    [118]="noble gas",
 
-    [1]="Nonmetal",
-    [6]="Nonmetal",
-    [7]="Nonmetal",
-    [8]="Nonmetal",
-    [15]="Nonmetal",
-    [16]="Nonmetal",
-    [34]="Nonmetal"
+    [1]="nonmetal",
+    [6]="nonmetal",
+    [7]="nonmetal",
+    [8]="nonmetal",
+    [15]="nonmetal",
+    [16]="nonmetal",
+    [34]="nonmetal"
 }
 
 --- Returns the family an atomic number resides in or ``nil`` if it can't be
@@ -72,18 +72,18 @@ local function family_of_atomic_number(atomic_number)
     )
 
     if atomic_number >= 57 and atomic_number <= 70 then
-        return "Lanthanide"
+        return "lanthanide"
     end
 
     if atomic_number >= 89 and atomic_number <= 102 then
-        return "Actinide"
+        return "actinide"
     end
 
     if atomic_number >= 21 and atomic_number <= 29
         or atomic_number >= 39 and atomic_number <= 47
         or atomic_number >= 71 and atomic_number <= 79
         or atomic_number >= 103 and atomic_number <= 111 then
-        return "Transition Metal"
+        return "transition metal"
     end
 
     return family[atomic_number]
