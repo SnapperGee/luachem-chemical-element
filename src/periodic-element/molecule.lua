@@ -30,6 +30,10 @@ local METATABLE = {
             return false
         end
 
+        if self_data.name ~= other_data.name then
+            return false
+        end
+
         if self_data.length ~= other_data.length then
             return false
         end
@@ -50,8 +54,10 @@ local METATABLE = {
         end
         table.sort(element_string_parts)
         return string.format(
-            "Molecule{length=%d, mass=%g, elements={%s}}",
+            "Molecule{name=%s, length=%d, count=%d, mass=%g, elements={%s}}",
+            self_data.name and ('"%s"'):format(self_data.name) or tostring(self_data.name),
             self_data.length,
+            self_data.count,
             self_data.mass,
             table.concat(element_string_parts, ", ")
         )
@@ -60,8 +66,9 @@ local METATABLE = {
 }
 
 ---@param element_counts table<Element, integer> -- non empty table of Elements mapped to integers > 0
+---@param name? string|nil -- an optional name for this molecule
 ---@return Molecule
-function Molecule.new(element_counts)
+function Molecule.new(element_counts, name)
     assert(type(element_counts) == "table", "'element_counts' table expected")
 
     local _length = 0
@@ -90,14 +97,15 @@ function Molecule.new(element_counts)
         length = _length,
         count = _count,
         mass = _mass,
-        elements = _elements
+        elements = _elements,
+        name = #name ~= 0 and name or nil
     }
 
     return obj
 end
 
----@param an_element Element|string|integer
----@param ... Element|string|integer
+---@param an_element Element|string|integer -- an element object, name, symbol, or atomic number
+---@param ... Element|string|integer -- additional element objects, names, symbols, and/or atomic numbers
 ---@return Molecule
 function Molecule.from(an_element, ...)
     local element = getmetatable(an_element) == Element and an_element or elements[an_element]
@@ -148,6 +156,11 @@ end
 ---@return integer -- number of distinct elements this molecule contains
 function Molecule:length()
     return DATA[self].length
+end
+
+---@return string|nil -- the name of this molecule if it has one
+function Molecule:name()
+    return DATA[self].name
 end
 
 return Molecule
