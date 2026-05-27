@@ -152,7 +152,8 @@ object/table is actually an instance of an `ElementSet` that contains an
 An `ElementSet` will throw an exception if its attempted to be instantiated with
 `Element` objects that have conflicting properties. For instance if an element
 with atomic number `1` and symbol `'H'` is added to the set then an element with
-atomic number `6` and symbol `'H'` is attempted to be added, then it will throw. Attempting to add a duplicate `Element` will not throw.
+atomic number `6` and symbol `'H'` is attempted to be added, then it will throw.
+Attempting to add a duplicate `Element` will not throw.
 
 ## Immutability
 
@@ -186,6 +187,20 @@ will most likely work with other later versions, but no guaranties are made to
 its reliability when used with versions other than lua 5.1.
 
 This package uses the luarocks rockspec 3.1 format.
+
+### Running the package locally
+
+To run this project/package locally it must first be installed as a dependency:
+
+```sh
+./luarocks make --tree=./lua_modules
+```
+
+and then it's entrypoint can be run:
+
+```sh
+./lua src/periodic-element/init.lua --help
+```
 
 ## License
 
