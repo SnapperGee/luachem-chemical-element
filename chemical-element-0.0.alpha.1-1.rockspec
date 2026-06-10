@@ -2,7 +2,7 @@ rockspec_format = "3.1"
 package = "chemical-element"
 version = "0.0.alpha.1-1"
 source = {
-    url = "git+https://gitlab.com/luachem/chemical-element",
+    url = "git+https://github.com/SnapperGee/luachem-chemical-element.git",
     tag = "0.0.alpha.1-1"
 }
 description = {
