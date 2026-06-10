@@ -1,6 +1,6 @@
-# Periodic Element
+# Chemical Element
 
-Elements of the periodic table of elements.
+Chemical element of the periodic table of elements.
 
 [![lua][lua badge]][lua website]
 ![Git][git badge]
@@ -12,13 +12,13 @@ Elements of the periodic table of elements.
 This lua module can be installed as a [lua rock][lua rock]:
 
 ```bash
-luarocks install periodic-element
+luarocks install chemical-element
 ```
 
 Once installed as a dependency it can be imported and used:
 
 ```lua
-local elements = require("periodic-element.elements")
+local elements = require("chemical-element.elements")
 
 local carbon = elements["C"]
 -- elements[6], elements["c"], and elements["carbon"] would also work exactly the same
@@ -60,7 +60,7 @@ Reference the [example above](#installation--usage) for how it can be used.
 
 ## Element
 
-This lua package makes it possible to programmatically represent a periodic
+This lua package makes it possible to programmatically represent a chemical
 element. It's built around the `Element` class module table that contains the
 properties an element on the periodic table of element has. This includes:
 
@@ -89,9 +89,9 @@ as this module exports concrete instantiated objects for all elements (as of
 writing this). An example of its usage is:
 
 ```lua
-local Element = require("periodic-element.element")
-local ElectronConfiguration = require("periodic-element.element.electron_configuration")
-local SubshellOccupancy = require("periodic-element.element.subshell_occupancy")
+local Element = require("chemical-element.element")
+local ElectronConfiguration = require("chemical-element.element.electron_configuration")
+local SubshellOccupancy = require("chemical-element.element.subshell_occupancy")
 
 local hydrogen_subshell_occupancy = SubshellOccupancy.new{
     n = 1,
@@ -144,10 +144,10 @@ it has more nil-able properties.
 
 ## Molecule & ElementSet Collections
 
-This package also exports a `Molecule` and `ElementSet` class that provide
-specialized collections for `Element` objects. The `Elements` module
-object/table is actually an instance of an `ElementSet` that contains an
-`Element` object for every periodic element.
+This package also exports an `ElementSet` class that provide specialized
+collections for `Element` objects. The `Elements` module object/table is
+actually an instance of an `ElementSet` that contains an `Element` object for
+every periodic element.
 
 An `ElementSet` will throw an exception if its attempted to be instantiated with
 `Element` objects that have conflicting properties. For instance if an element
@@ -199,19 +199,19 @@ To run this project/package locally it must first be installed as a dependency:
 and then it's entrypoint can be run:
 
 ```sh
-./lua src/periodic-element/init.lua --help
+./lua src/chemical-element/init.lua --help
 ```
 
 ## License
 
 This package uses the [MIT](./LICENSE.txt) license and is free to be used for whatever.
 
-[lua rock]: https://luarocks.org/modules/snap/periodic-element "periodic-element lua rock"
-[issues]: https://github.com/SnapperGee/periodic-element/issues "periodic-element issues"
+[lua rock]: https://luarocks.org/modules/snap/chemical-element "chemical-element lua rock"
+[issues]: https://github.com/SnapperGee/chemical-element/issues "chemical-element issues"
 [lua badge]: https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white "lua"
 [lua website]: https://www.lua.org/manual/5.1/ "lua"
 [git badge]: https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white "Git"
 [gitlab badge]: https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white "GitLab repo"
-[gitlab repo]: https://gitlab.com/SnapperGee/periodic-element "GitLab repo"
+[gitlab repo]: https://gitlab.com/SnapperGee/chemical-element "GitLab repo"
 [github badge]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white "GitHub repo"
-[github repo]: https://github.com/SnapperGee/periodic-element "GitHub repo"
+[github repo]: https://github.com/SnapperGee/chemical-element "GitHub repo"
