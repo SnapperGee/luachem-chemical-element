@@ -4,6 +4,6 @@ return {
     },
     default = {
         verbose = true,
-        ROOT = {"test/periodic-element"}
+        ROOT = {"test/chemical-element"}
     }
 }
