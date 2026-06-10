@@ -24,8 +24,8 @@ description = {
         it exports and created from its classes are immutable (or intended to be
         as immutable as possible).
     ]],
-    homepage = "https://gitlab.com/luachem/periodic-element",
-    issues_url = "https://gitlab.com/luachem/periodic-element/-/issues",
+    homepage = "https://gitlab.com/luachem/chemical-element",
+    issues_url = "https://gitlab.com/luachem/chemical-element/-/issues",
     maintainer = "Snapper Gee <XxSnapperGeexX@gmail.com>",
     license = "MIT",
     labels = {"chemistry", "periodic-table", "periodic-table-of-elements", "chemical-element", "molecule", "stoichiometry"},
