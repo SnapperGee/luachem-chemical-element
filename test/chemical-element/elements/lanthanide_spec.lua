@@ -3,7 +3,7 @@ local OxidationStates = require("chemical-element.element.oxidation_states")
 local test_elements = require("test.chemical-element.elements.test_elements")
 
 local lanthanum_properties = {
-    {"name", "Lanthanum"},
+    {"name", "lanthanum"},
     {"symbol", "La"},
     {"number", 57},
     {"oxidation_states", OxidationStates.new{3}},
@@ -23,7 +23,7 @@ local lanthanum_properties = {
 }
 
 local cerium_properties = {
-    {"name", "Cerium"},
+    {"name", "cerium"},
     {"symbol", "Ce"},
     {"number", 58},
     {"oxidation_states", OxidationStates.new{3, 4}},
@@ -43,7 +43,7 @@ local cerium_properties = {
 }
 
 local praseodymium_properties = {
-    {"name", "Praseodymium"},
+    {"name", "praseodymium"},
     {"symbol", "Pr"},
     {"number", 59},
     {"oxidation_states", OxidationStates.new{3}},
@@ -63,7 +63,7 @@ local praseodymium_properties = {
 }
 
 local neodymium_properties = {
-    {"name", "Neodymium"},
+    {"name", "neodymium"},
     {"symbol", "Nd"},
     {"number", 60},
     {"oxidation_states", OxidationStates.new{3}},
@@ -83,7 +83,7 @@ local neodymium_properties = {
 }
 
 local promethium_properties = {
-    {"name", "Promethium"},
+    {"name", "promethium"},
     {"symbol", "Pm"},
     {"number", 61},
     {"oxidation_states", OxidationStates.new{3}},
@@ -103,7 +103,7 @@ local promethium_properties = {
 }
 
 local samarium_properties = {
-    {"name", "Samarium"},
+    {"name", "samarium"},
     {"symbol", "Sm"},
     {"number", 62},
     {"oxidation_states", OxidationStates.new{2, 3}},
@@ -123,7 +123,7 @@ local samarium_properties = {
 }
 
 local europium_properties = {
-    {"name", "Europium"},
+    {"name", "europium"},
     {"symbol", "Eu"},
     {"number", 63},
     {"oxidation_states", OxidationStates.new{2, 3}},
@@ -143,7 +143,7 @@ local europium_properties = {
 }
 
 local gadolinium_properties = {
-    {"name", "Gadolinium"},
+    {"name", "gadolinium"},
     {"symbol", "Gd"},
     {"number", 64},
     {"oxidation_states", OxidationStates.new{3}},
@@ -163,7 +163,7 @@ local gadolinium_properties = {
 }
 
 local terbium_properties = {
-    {"name", "Terbium"},
+    {"name", "terbium"},
     {"symbol", "Tb"},
     {"number", 65},
     {"oxidation_states", OxidationStates.new{3}},
@@ -183,7 +183,7 @@ local terbium_properties = {
 }
 
 local dysprosium_properties = {
-    {"name", "Dysprosium"},
+    {"name", "dysprosium"},
     {"symbol", "Dy"},
     {"number", 66},
     {"oxidation_states", OxidationStates.new{3}},
@@ -203,7 +203,7 @@ local dysprosium_properties = {
 }
 
 local holmium_properties = {
-    {"name", "Holmium"},
+    {"name", "holmium"},
     {"symbol", "Ho"},
     {"number", 67},
     {"oxidation_states", OxidationStates.new{3}},
@@ -223,7 +223,7 @@ local holmium_properties = {
 }
 
 local erbium_properties = {
-    {"name", "Erbium"},
+    {"name", "erbium"},
     {"symbol", "Er"},
     {"number", 68},
     {"oxidation_states", OxidationStates.new{3}},
@@ -243,7 +243,7 @@ local erbium_properties = {
 }
 
 local thulium_properties = {
-    {"name", "Thulium"},
+    {"name", "thulium"},
     {"symbol", "Tm"},
     {"number", 69},
     {"oxidation_states", OxidationStates.new{3}},
@@ -263,7 +263,7 @@ local thulium_properties = {
 }
 
 local ytterbium_properties = {
-    {"name", "Ytterbium"},
+    {"name", "ytterbium"},
     {"symbol", "Yb"},
     {"number", 70},
     {"oxidation_states", OxidationStates.new{2, 3}},

@@ -3,7 +3,7 @@ local OxidationStates = require("chemical-element.element.oxidation_states")
 local test_elements = require("test.chemical-element.elements.test_elements")
 
 local beryllium_properties = {
-    {"name", "Beryllium"},
+    {"name", "beryllium"},
     {"symbol", "Be"},
     {"number", 4},
     {"oxidation_states", OxidationStates.new{2}},
@@ -23,7 +23,7 @@ local beryllium_properties = {
 }
 
 local magnesium_properties = {
-    {"name", "Magnesium"},
+    {"name", "magnesium"},
     {"symbol", "Mg"},
     {"number", 12},
     {"oxidation_states", OxidationStates.new{2}},
@@ -43,7 +43,7 @@ local magnesium_properties = {
 }
 
 local calcium_properties = {
-    {"name", "Calcium"},
+    {"name", "calcium"},
     {"symbol", "Ca"},
     {"number", 20},
     {"oxidation_states", OxidationStates.new{2}},
@@ -63,7 +63,7 @@ local calcium_properties = {
 }
 
 local strontium_properties = {
-    {"name", "Strontium"},
+    {"name", "strontium"},
     {"symbol", "Sr"},
     {"number", 38},
     {"oxidation_states", OxidationStates.new{2}},
@@ -83,7 +83,7 @@ local strontium_properties = {
 }
 
 local barium_properties = {
-    {"name", "Barium"},
+    {"name", "barium"},
     {"symbol", "Ba"},
     {"number", 56},
     {"oxidation_states", OxidationStates.new{2}},
@@ -103,7 +103,7 @@ local barium_properties = {
 }
 
 local radium_properties = {
-    {"name", "Radium"},
+    {"name", "radium"},
     {"symbol", "Ra"},
     {"number", 88},
     {"oxidation_states", OxidationStates.new{2}},

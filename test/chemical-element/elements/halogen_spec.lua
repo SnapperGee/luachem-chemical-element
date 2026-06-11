@@ -3,7 +3,7 @@ local OxidationStates = require("chemical-element.element.oxidation_states")
 local test_elements = require("test.chemical-element.elements.test_elements")
 
 local fluorine_properties = {
-    {"name", "Fluorine"},
+    {"name", "fluorine"},
     {"symbol", "F"},
     {"number", 9},
     {"oxidation_states", OxidationStates.new{-1}},
@@ -23,7 +23,7 @@ local fluorine_properties = {
 }
 
 local chlorine_properties = {
-    {"name", "Chlorine"},
+    {"name", "chlorine"},
     {"symbol", "Cl"},
     {"number", 17},
     {"oxidation_states", OxidationStates.new{-1, 1, 5, 7}},
@@ -43,7 +43,7 @@ local chlorine_properties = {
 }
 
 local bromine_properties = {
-    {"name", "Bromine"},
+    {"name", "bromine"},
     {"symbol", "Br"},
     {"number", 35},
     {"oxidation_states", OxidationStates.new{-1, 1, 5}},
@@ -63,7 +63,7 @@ local bromine_properties = {
 }
 
 local iodine_properties = {
-    {"name", "Iodine"},
+    {"name", "iodine"},
     {"symbol", "I"},
     {"number", 53},
     {"oxidation_states", OxidationStates.new{-1, 1, 5, 7}},
@@ -83,7 +83,7 @@ local iodine_properties = {
 }
 
 local astatine_properties = {
-    {"name", "Astatine"},
+    {"name", "astatine"},
     {"symbol", "At"},
     {"number", 85},
     {"oxidation_states", OxidationStates.new{-1, 1, 3, 5, 7}},
@@ -103,7 +103,7 @@ local astatine_properties = {
 }
 
 local tennessine_properties = {
-    {"name", "Tennessine"},
+    {"name", "tennessine"},
     {"symbol", "Ts"},
     {"number", 117},
     {"oxidation_states", OxidationStates.new{-1, 1, 3, 5}},

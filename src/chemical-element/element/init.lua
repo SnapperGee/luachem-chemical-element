@@ -11,7 +11,7 @@ local standard_states = { solid = true, liquid = true, gas = true }
 ---@class Element
 ---@field name   string      -- element name
 ---@field symbol string      -- 1-2 chars
----@field number integer     -- atomic number 1..97
+---@field number integer     -- atomic number 1..118
 ---@field mass   number      -- atomic mass
 ---@field group  integer|nil -- nil if Block is f otherwise 1..18
 ---@field family string      -- group family
@@ -145,7 +145,7 @@ function Element.new(opts)
         string.format("non empty 'name' string expected but got: %s", tostring(opts.name))
     )
 
-    local normalized_name = opts.name:sub(1,1):upper() .. opts.name:sub(2):lower()
+    local normalized_name = opts.name:lower()
 
     assert(
         type(opts.symbol) == "string" and #opts.symbol >= 1 and #opts.symbol <= 2,
@@ -317,7 +317,7 @@ function Element.partial(opts)
         string.format("non empty 'name' string expected but got: %s", tostring(opts.name))
     )
 
-    local normalized_name = opts.name:sub(1,1):upper() .. opts.name:sub(2):lower()
+    local normalized_name = opts.name:lower()
 
     assert(
         type(opts.symbol) == "string" and #opts.symbol >= 1 and #opts.symbol <= 2,

@@ -3,7 +3,7 @@ local OxidationStates = require("chemical-element.element.oxidation_states")
 local test_elements = require("test.chemical-element.elements.test_elements")
 
 local lithium_properties = {
-    {"name", "Lithium"},
+    {"name", "lithium"},
     {"symbol", "Li"},
     {"number", 3},
     {"oxidation_states", OxidationStates.new{1}},
@@ -23,7 +23,7 @@ local lithium_properties = {
 }
 
 local sodium_properties = {
-    {"name", "Sodium"},
+    {"name", "sodium"},
     {"symbol", "Na"},
     {"number", 11},
     {"oxidation_states", OxidationStates.new{1}},
@@ -43,7 +43,7 @@ local sodium_properties = {
 }
 
 local potassium_properties = {
-    {"name", "Potassium"},
+    {"name", "potassium"},
     {"symbol", "K"},
     {"number", 19},
     {"oxidation_states", OxidationStates.new{1}},
@@ -63,7 +63,7 @@ local potassium_properties = {
 }
 
 local rubidium_properties = {
-    {"name", "Rubidium"},
+    {"name", "rubidium"},
     {"symbol", "Rb"},
     {"number", 37},
     {"oxidation_states", OxidationStates.new{1}},
@@ -83,7 +83,7 @@ local rubidium_properties = {
 }
 
 local cesium_properties = {
-    {"name", "Cesium"},
+    {"name", "cesium"},
     {"symbol", "Cs"},
     {"number", 55},
     {"oxidation_states", OxidationStates.new{1}},
@@ -103,7 +103,7 @@ local cesium_properties = {
 }
 
 local francium_properties = {
-    {"name", "Francium"},
+    {"name", "francium"},
     {"symbol", "Fr"},
     {"number", 87},
     {"oxidation_states", OxidationStates.new{1}},

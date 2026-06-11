@@ -3,7 +3,7 @@ local OxidationStates = require("chemical-element.element.oxidation_states")
 local test_elements = require("test.chemical-element.elements.test_elements")
 
 local actinium_properties = {
-    {"name", "Actinium"},
+    {"name", "actinium"},
     {"symbol", "Ac"},
     {"number", 89},
     {"oxidation_states", OxidationStates.new{3}},
@@ -23,7 +23,7 @@ local actinium_properties = {
 }
 
 local thorium_properties = {
-    {"name", "Thorium"},
+    {"name", "thorium"},
     {"symbol", "Th"},
     {"number", 90},
     {"oxidation_states", OxidationStates.new{4}},
@@ -43,7 +43,7 @@ local thorium_properties = {
 }
 
 local protactinium_properties = {
-    {"name", "Protactinium"},
+    {"name", "protactinium"},
     {"symbol", "Pa"},
     {"number", 91},
     {"oxidation_states", OxidationStates.new{4, 5}},
@@ -63,7 +63,7 @@ local protactinium_properties = {
 }
 
 local uranium_properties = {
-    {"name", "Uranium"},
+    {"name", "uranium"},
     {"symbol", "U"},
     {"number", 92},
     {"oxidation_states", OxidationStates.new{3, 4, 5, 6}},
@@ -83,7 +83,7 @@ local uranium_properties = {
 }
 
 local neptunium_properties = {
-    {"name", "Neptunium"},
+    {"name", "neptunium"},
     {"symbol", "Np"},
     {"number", 93},
     {"oxidation_states", OxidationStates.new{3, 4, 5, 6}},
@@ -103,7 +103,7 @@ local neptunium_properties = {
 }
 
 local plutonium_properties = {
-    {"name", "Plutonium"},
+    {"name", "plutonium"},
     {"symbol", "Pu"},
     {"number", 94},
     {"oxidation_states", OxidationStates.new{3, 4, 5, 6}},
@@ -123,7 +123,7 @@ local plutonium_properties = {
 }
 
 local americium_properties = {
-    {"name", "Americium"},
+    {"name", "americium"},
     {"symbol", "Am"},
     {"number", 95},
     {"oxidation_states", OxidationStates.new{3, 4, 5, 6}},
@@ -143,7 +143,7 @@ local americium_properties = {
 }
 
 local curium_properties = {
-    {"name", "Curium"},
+    {"name", "curium"},
     {"symbol", "Cm"},
     {"number", 96},
     {"oxidation_states", OxidationStates.new{3}},
@@ -163,7 +163,7 @@ local curium_properties = {
 }
 
 local berkelium_properties = {
-    {"name", "Berkelium"},
+    {"name", "berkelium"},
     {"symbol", "Bk"},
     {"number", 97},
     {"oxidation_states", OxidationStates.new{3, 4}},
@@ -183,7 +183,7 @@ local berkelium_properties = {
 }
 
 local californium_properties = {
-    {"name", "Californium"},
+    {"name", "californium"},
     {"symbol", "Cf"},
     {"number", 98},
     {"oxidation_states", OxidationStates.new{3}},
@@ -203,7 +203,7 @@ local californium_properties = {
 }
 
 local einsteinium_properties = {
-    {"name", "Einsteinium"},
+    {"name", "einsteinium"},
     {"symbol", "Es"},
     {"number", 99},
     {"oxidation_states", OxidationStates.new{3}},
@@ -223,7 +223,7 @@ local einsteinium_properties = {
 }
 
 local fermium_properties = {
-    {"name", "Fermium"},
+    {"name", "fermium"},
     {"symbol", "Fm"},
     {"number", 100},
     {"oxidation_states", OxidationStates.new{3}},
@@ -243,7 +243,7 @@ local fermium_properties = {
 }
 
 local mendelevium_properties = {
-    {"name", "Mendelevium"},
+    {"name", "mendelevium"},
     {"symbol", "Md"},
     {"number", 101},
     {"oxidation_states", OxidationStates.new{2, 3}},
@@ -263,7 +263,7 @@ local mendelevium_properties = {
 }
 
 local nobelium_properties = {
-    {"name", "Nobelium"},
+    {"name", "nobelium"},
     {"symbol", "No"},
     {"number", 102},
     {"oxidation_states", OxidationStates.new{2, 3}},

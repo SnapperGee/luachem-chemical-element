@@ -4,6 +4,7 @@ local is_array = require("chemical-element.util.is_array")
 --- Contains a set of distinct ``Element`` objects that can be queried for
 --- by their atomic number, name, or symbol.
 ---@class ElementSet
+---@field [string|integer] Element|nil
 local ElementSet = {}
 
 local DATA = setmetatable({}, { __mode = "k" })
@@ -23,10 +24,13 @@ local METATABLE = {
         end
 
         if type(k) == "string" then
-            local normalized_symbol_or_name = k:sub(1, 1):upper() .. k:sub(2):lower()
+            if #k <=2 then
+                local normalized_symbol = k:sub(1, 1):upper() .. k:sub(2):lower()
+                return self_data.symbol_index[normalized_symbol]
+            end
 
-            return self_data.name_index[normalized_symbol_or_name]
-                or self_data.symbol_index[normalized_symbol_or_name]
+            local normalized_name = k:lower()
+            return self_data.name_index[normalized_name]
         end
     end,
     __newindex = function(self, k, v)

@@ -5,7 +5,7 @@ local format = require("chemical-element.element.format")
 local args = parser:parse()
 
 if args.version then
-    print("chemical-element 0.0.alpha.1")
+    print("periodic-element 0.0.alpha.3-1")
     os.exit()
 end
 

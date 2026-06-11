@@ -27,7 +27,7 @@ print(carbon)
 
 --[[
 Element{
-    name="Carbon",
+    name="carbon",
     symbol="C",
     number=6,
     mass=12.011,
