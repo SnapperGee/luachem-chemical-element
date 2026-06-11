@@ -1,9 +1,9 @@
 rockspec_format = "3.1"
 package = "chemical-element"
-version = "0.0.alpha.2-1"
+version = "0.0.alpha.3-1"
 source = {
     url = "git+https://gitlab.com/luachem/chemical-element.git",
-    tag = "0.0.alpha.2-1"
+    tag = "0.0.alpha.3-1"
 }
 description = {
     summary = "Chemical element of the periodic table of elements.",
