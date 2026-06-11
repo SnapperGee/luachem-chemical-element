@@ -3,7 +3,7 @@ local OxidationStates = require("chemical-element.element.oxidation_states")
 local test_elements = require("test.chemical-element.elements.test_elements")
 
 local hydrogen_properties = {
-    {"name", "Hydrogen"},
+    {"name", "hydrogen"},
     {"symbol", "H"},
     {"number", 1},
     {"oxidation_states", OxidationStates.new{-1, 1}},
@@ -23,7 +23,7 @@ local hydrogen_properties = {
 }
 
 local carbon_properties = {
-    {"name", "Carbon"},
+    {"name", "carbon"},
     {"symbol", "C"},
     {"number", 6},
     {"oxidation_states", OxidationStates.new{-4, 2, 4}},
@@ -43,7 +43,7 @@ local carbon_properties = {
 }
 
 local nitrogen_properties = {
-    {"name", "Nitrogen"},
+    {"name", "nitrogen"},
     {"symbol", "N"},
     {"number", 7},
     {"oxidation_states", OxidationStates.new{-3, -2, -1, 1, 2, 3, 4, 5}},
@@ -63,7 +63,7 @@ local nitrogen_properties = {
 }
 
 local oxygen_properties = {
-    {"name", "Oxygen"},
+    {"name", "oxygen"},
     {"symbol", "O"},
     {"number", 8},
     {"oxidation_states", OxidationStates.new{-2}},
@@ -83,7 +83,7 @@ local oxygen_properties = {
 }
 
 local phosphorus_properties = {
-    {"name", "Phosphorus"},
+    {"name", "phosphorus"},
     {"symbol", "P"},
     {"number", 15},
     {"oxidation_states", OxidationStates.new{-3, 3, 5}},
@@ -103,7 +103,7 @@ local phosphorus_properties = {
 }
 
 local sulfur_properties = {
-    {"name", "Sulfur"},
+    {"name", "sulfur"},
     {"symbol", "S"},
     {"number", 16},
     {"oxidation_states", OxidationStates.new{-2, 4, 6}},
@@ -123,7 +123,7 @@ local sulfur_properties = {
 }
 
 local selenium_properties = {
-    {"name", "Selenium"},
+    {"name", "selenium"},
     {"symbol", "Se"},
     {"number", 34},
     {"oxidation_states", OxidationStates.new{-2, 4, 6}},

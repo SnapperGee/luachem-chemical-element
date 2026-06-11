@@ -3,7 +3,7 @@ local OxidationStates = require("chemical-element.element.oxidation_states")
 local test_elements = require("test.chemical-element.elements.test_elements")
 
 local helium_properties = {
-    {"name", "Helium"},
+    {"name", "helium"},
     {"symbol", "He"},
     {"number", 2},
     {"oxidation_states", OxidationStates.new{0}},
@@ -23,7 +23,7 @@ local helium_properties = {
 }
 
 local neon_properties = {
-    {"name", "Neon"},
+    {"name", "neon"},
     {"symbol", "Ne"},
     {"number", 10},
     {"oxidation_states", OxidationStates.new{0}},
@@ -43,7 +43,7 @@ local neon_properties = {
 }
 
 local argon_properties = {
-    {"name", "Argon"},
+    {"name", "argon"},
     {"symbol", "Ar"},
     {"number", 18},
     {"oxidation_states", OxidationStates.new{0}},
@@ -63,7 +63,7 @@ local argon_properties = {
 }
 
 local krypton_properties = {
-    {"name", "Krypton"},
+    {"name", "krypton"},
     {"symbol", "Kr"},
     {"number", 36},
     {"oxidation_states", OxidationStates.new{0}},
@@ -83,7 +83,7 @@ local krypton_properties = {
 }
 
 local xenon_properties = {
-    {"name", "Xenon"},
+    {"name", "xenon"},
     {"symbol", "Xe"},
     {"number", 54},
     {"oxidation_states", OxidationStates.new{0}},
@@ -103,7 +103,7 @@ local xenon_properties = {
 }
 
 local radon_properties = {
-    {"name", "Radon"},
+    {"name", "radon"},
     {"symbol", "Rn"},
     {"number", 86},
     {"oxidation_states", OxidationStates.new{0}},
@@ -123,7 +123,7 @@ local radon_properties = {
 }
 
 local oganesson_properties = {
-    {"name", "Oganesson"},
+    {"name", "oganesson"},
     {"symbol", "Og"},
     {"number", 118},
     {"oxidation_states", OxidationStates.new{-1, 0, 1, 2, 4, 6}},

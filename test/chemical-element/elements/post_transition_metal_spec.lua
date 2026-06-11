@@ -3,7 +3,7 @@ local OxidationStates = require("chemical-element.element.oxidation_states")
 local test_elements = require("test.chemical-element.elements.test_elements")
 
 local aluminum_properties = {
-    {"name", "Aluminum"},
+    {"name", "aluminum"},
     {"symbol", "Al"},
     {"number", 13},
     {"oxidation_states", OxidationStates.new{3}},
@@ -23,7 +23,7 @@ local aluminum_properties = {
 }
 
 local zinc_properties = {
-    {"name", "Zinc"},
+    {"name", "zinc"},
     {"symbol", "Zn"},
     {"number", 30},
     {"oxidation_states", OxidationStates.new{2}},
@@ -43,7 +43,7 @@ local zinc_properties = {
 }
 
 local gallium_properties = {
-    {"name", "Gallium"},
+    {"name", "gallium"},
     {"symbol", "Ga"},
     {"number", 31},
     {"oxidation_states", OxidationStates.new{3}},
@@ -63,7 +63,7 @@ local gallium_properties = {
 }
 
 local cadmium_properties = {
-    {"name", "Cadmium"},
+    {"name", "cadmium"},
     {"symbol", "Cd"},
     {"number", 48},
     {"oxidation_states", OxidationStates.new{2}},
@@ -83,7 +83,7 @@ local cadmium_properties = {
 }
 
 local indium_properties = {
-    {"name", "Indium"},
+    {"name", "indium"},
     {"symbol", "In"},
     {"number", 49},
     {"oxidation_states", OxidationStates.new{3}},
@@ -103,7 +103,7 @@ local indium_properties = {
 }
 
 local tin_properties = {
-    {"name", "Tin"},
+    {"name", "tin"},
     {"symbol", "Sn"},
     {"number", 50},
     {"oxidation_states", OxidationStates.new{2, 4}},
@@ -123,7 +123,7 @@ local tin_properties = {
 }
 
 local mercury_properties = {
-    {"name", "Mercury"},
+    {"name", "mercury"},
     {"symbol", "Hg"},
     {"number", 80},
     {"oxidation_states", OxidationStates.new{1, 2}},
@@ -143,7 +143,7 @@ local mercury_properties = {
 }
 
 local thallium_properties = {
-    {"name", "Thallium"},
+    {"name", "thallium"},
     {"symbol", "Tl"},
     {"number", 81},
     {"oxidation_states", OxidationStates.new{1, 3}},
@@ -163,7 +163,7 @@ local thallium_properties = {
 }
 
 local lead_properties = {
-    {"name", "Lead"},
+    {"name", "lead"},
     {"symbol", "Pb"},
     {"number", 82},
     {"oxidation_states", OxidationStates.new{2, 4}},
@@ -183,7 +183,7 @@ local lead_properties = {
 }
 
 local bismuth_properties = {
-    {"name", "Bismuth"},
+    {"name", "bismuth"},
     {"symbol", "Bi"},
     {"number", 83},
     {"oxidation_states", OxidationStates.new{3, 5}},
@@ -203,7 +203,7 @@ local bismuth_properties = {
 }
 
 local polonium_properties = {
-    {"name", "Polonium"},
+    {"name", "polonium"},
     {"symbol", "Po"},
     {"number", 84},
     {"oxidation_states", OxidationStates.new{2, 4}},
@@ -223,7 +223,7 @@ local polonium_properties = {
 }
 
 local copernicium_properties = {
-    {"name", "Copernicium"},
+    {"name", "copernicium"},
     {"symbol", "Cn"},
     {"number", 112},
     {"oxidation_states", OxidationStates.new{0, 1, 2}},
@@ -243,7 +243,7 @@ local copernicium_properties = {
 }
 
 local nihonium_properties = {
-    {"name", "Nihonium"},
+    {"name", "nihonium"},
     {"symbol", "Nh"},
     {"number", 113},
     {"oxidation_states", nil},
@@ -263,7 +263,7 @@ local nihonium_properties = {
 }
 
 local flerovium_properties = {
-    {"name", "Flerovium"},
+    {"name", "flerovium"},
     {"symbol", "Fl"},
     {"number", 114},
     {"oxidation_states", OxidationStates.new{0, 1, 2, 4, 6}},
@@ -283,7 +283,7 @@ local flerovium_properties = {
 }
 
 local moscovium_properties = {
-    {"name", "Moscovium"},
+    {"name", "moscovium"},
     {"symbol", "Mc"},
     {"number", 115},
     {"oxidation_states", OxidationStates.new{1, 3}},
@@ -303,7 +303,7 @@ local moscovium_properties = {
 }
 
 local livermorium_properties = {
-    {"name", "Livermorium"},
+    {"name", "livermorium"},
     {"symbol", "Lv"},
     {"number", 116},
     {"oxidation_states", OxidationStates.new{-2, 2, 4}},

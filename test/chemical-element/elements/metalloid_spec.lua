@@ -3,7 +3,7 @@ local OxidationStates = require("chemical-element.element.oxidation_states")
 local test_elements = require("test.chemical-element.elements.test_elements")
 
 local boron_properties = {
-    {"name", "Boron"},
+    {"name", "boron"},
     {"symbol", "B"},
     {"number", 5},
     {"oxidation_states", OxidationStates.new{3}},
@@ -23,7 +23,7 @@ local boron_properties = {
 }
 
 local silicon_properties = {
-    {"name", "Silicon"},
+    {"name", "silicon"},
     {"symbol", "Si"},
     {"number", 14},
     {"oxidation_states", OxidationStates.new{-4, 2, 4}},
@@ -43,7 +43,7 @@ local silicon_properties = {
 }
 
 local germanium_properties = {
-    {"name", "Germanium"},
+    {"name", "germanium"},
     {"symbol", "Ge"},
     {"number", 32},
     {"oxidation_states", OxidationStates.new{2, 4}},
@@ -63,7 +63,7 @@ local germanium_properties = {
 }
 
 local arsenic_properties = {
-    {"name", "Arsenic"},
+    {"name", "arsenic"},
     {"symbol", "As"},
     {"number", 33},
     {"oxidation_states", OxidationStates.new{-3, 3, 5}},
@@ -83,7 +83,7 @@ local arsenic_properties = {
 }
 
 local antimony_properties = {
-    {"name", "Antimony"},
+    {"name", "antimony"},
     {"symbol", "Sb"},
     {"number", 51},
     {"oxidation_states", OxidationStates.new{-3, 3, 5}},
@@ -103,7 +103,7 @@ local antimony_properties = {
 }
 
 local tellurium_properties = {
-    {"name", "Tellurium"},
+    {"name", "tellurium"},
     {"symbol", "Te"},
     {"number", 52},
     {"oxidation_states", OxidationStates.new{-2, 4, 6}},
