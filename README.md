@@ -5,6 +5,7 @@ Chemical element of the periodic table of elements.
 [![lua][lua badge]][lua website]
 ![Git][git badge]
 [![GitLab][gitlab badge]][gitlab repo]
+[![Codeberg][codeberg badge]][codeberg repo]
 [![GitHub][github badge]][github repo]
 
 ## Installation & Usage
@@ -213,5 +214,7 @@ This package uses the [MIT](./LICENSE.txt) license and is free to be used for wh
 [git badge]: https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white "Git"
 [gitlab badge]: https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white "GitLab repo"
 [gitlab repo]: https://gitlab.com/SnapperGee/chemical-element "GitLab repo"
+[codeberg badge]: https://img.shields.io/badge/Codeberg-2185D0?style=for-the-badge&logo=Codeberg&logoColor=white "Codeberg repo"
+[codeberg repo]: https://codeberg.org/SnapperGee/luachem-chemical-element "Codeberg repo"
 [github badge]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white "GitHub repo"
 [github repo]: https://github.com/SnapperGee/chemical-element "GitHub repo"
