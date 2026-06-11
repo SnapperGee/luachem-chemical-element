@@ -207,7 +207,7 @@ and then it's entrypoint can be run:
 This package uses the [MIT](./LICENSE.txt) license and is free to be used for whatever.
 
 [lua rock]: https://luarocks.org/modules/snap/chemical-element "chemical-element lua rock"
-[issues]: https://github.com/SnapperGee/chemical-element/issues "chemical-element issues"
+[issues]: https://gitlab.com/luachem/chemical-element/-/issues "chemical-element issues"
 [lua badge]: https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white "lua"
 [lua website]: https://www.lua.org/manual/5.1/ "lua"
 [git badge]: https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white "Git"
